@@ -1,0 +1,77 @@
+.code-container {
+  display: flex;
+  height: 100vh;
+}
+
+.editor {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+#html-input {
+  width: 100%;
+  height: 50%;
+  border: none;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+#css-input {
+  width: 100%;
+  height: 20%;
+  border: none;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+#js-input {
+  width: 100%;
+  height: 20%;
+  border: none;
+  resize: none;
+background-color:#6bff70 ;}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.run-button{ background: #4CAF50;
+ }
+.save-button,
+.load-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.output {
+  flex: 1;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+.output-area {
+  width: 200px;
+  height: 800px;
+  border: none;
+  padding: 10px;
+  overflow: auto;
+  font-size: 16px;
+}
